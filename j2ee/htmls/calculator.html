@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <link rel="stylesheet" type="text/css" href="../css/calc.css">
+    <script src="../javascript/calculator.js"></script>
+</head>
+<body>
+<!--
+<input type="text" id="num1"> +
+<input type="text" id="num2"> =
+<input type="text" id="result">
+<input type="button" value="运算" onclick="calc()">
+-->
+<span>地名:</span> <input type="text" id ="location"  value="浙江">
+<span>公司类型:</span> <input type="text" id ="companyType"  value="互联网公司">
+<br>
+<span>公司名称:</span> <input type="text" id ="companyName" value="阿里九九">
+<span>老板姓名:</span> <input type="text" id ="bossName" value="牛风">
+<br>
+<span>money:</span> <input type="text" id ="money" value="一万">
+<span>产品:</span> <input type="text" id ="product" value="贴膜">
+<br>
+<span>价格计量单位:</span> <input type="text" id ="unit" value="百">
+
+<br>
+<div align="center">
+    <button id="generate" onclick="generate()">生成</button>
+    <br>
+    <textarea id="result">浙江最大互联网公司阿里九九倒闭了，王八蛋老板牛风吃喝嫖赌，欠下了一万个亿，带着他的小姨子跑了!我们没有办法，拿着贴膜抵工资!原价都是一百多、两百多、三百多的贴膜，现在全部只卖二十块，统统只要二十块!牛风王八蛋，你不是人!我们辛辛苦苦给你干了大半年，你不发工资，你还我血汗钱，还我血汗钱!</textarea>
+</div>
+
+<br>
+
+<script>
+    function showHello(){
+        alert("Hello JavaScript");
+    }
+</script>
+
+<button onclick="showHello()">点击一下</button>
+
+
+</body>
+</html>

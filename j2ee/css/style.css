@@ -1,0 +1,39 @@
+.p1{
+    color:red;
+}
+.span1{
+    color:blue;
+}
+
+div.r{
+    position: relative;
+    left:0px;
+    top: 0px;
+}
+
+div.a {
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+.f{
+    float:left;
+}
+
+div.d{
+    display: none;
+}
+
+span.d{
+    display: block;
+}
+div.s{
+    display: inline;
+}
+
+span{
+    display:inline-block;
+    border: 1px solid lightgray;
+    margin:10px;
+    width:100px;
+}

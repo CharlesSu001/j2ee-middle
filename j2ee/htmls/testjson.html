@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json学习</title>
+    <script>
+        var heros=
+            [
+                {"name":"盖伦","hp":616},
+                {"name":"提莫","hp":313},
+                {"name":"死歌","hp":432},
+                {"name":"火女","hp":389}
+            ]
+
+        document.write("第四个英雄是："+heros[2].name);
+
+        var s1="{\"name\":\"盖伦\",";
+        var s2="\"hp\":616}";
+        var s=s1+s2;
+        document.write("这是json格式的字符串"+s);
+        var green=eval("("+s+")");
+        document.write("这是json对象"+green);
+
+
+        var hero = {"name":"盖伦","hp":"616"};
+        document.write("这是一个json 对象："+ hero);
+        document.write("<br>");
+        var heroString=JSON.stringify(hero);
+        document.write("这是json字符串"+heroString);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

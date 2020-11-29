@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格斑马线</title>
+</head>
+<body>
+<style>
+    .title{
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: lightgray;
+    }
+    .row1{
+        border-top-style:solid;
+        border-top-width: 2px;
+        border-bottom--style:solid;
+        border-bottom-width: 2px;
+        background-color: lightgray;
+    }
+
+    .row2{
+        border-top-style:solid;
+        border-top-width: 2px;
+        border-bottom--style:solid;
+        border-bottom-width: 2px;
+        background-color: white;
+    }
+
+
+
+    table.t1{
+        border-collapse:collapse;
+        table-layout:fixed;
+    }
+
+    div{
+        width:0px;
+        height:0px;
+        border-top-style:solid;
+        border-top-color:red;
+        border-top-width: 10px;
+        border-left-style:solid;
+        border-left-color:white;
+        border-left-width: 10px;
+        border-bottom-style:solid;
+        border-bottom-color:white;
+        border-bottom-width: 10px;
+        border-right-style:solid;
+        border-right-color:white;
+        border-right-width: 10px;
+    }
+
+    .underline{
+        border-collapse: separate;
+        width:70%;
+    }
+    td.u{
+        text-align:center;
+        border-bottom-style:solid;
+        border-bottom-color:lightskyblue;
+        border-bottom-width: 5px;
+        border-right: 2px solid #fff;
+    }
+
+
+</style>
+<table class="t1" width="50%">
+    <tr class="title" align="center">
+        <td>id</td>
+        <td>名称</td>
+        <td>血量</td>
+        <td>伤害</td>
+    </tr>
+
+    <tr class="row1" align="center">
+        <td>1</td>
+        <td>gareen</td>
+        <td>340</td>
+        <td>58</td>
+    </tr>
+
+    <tr class="row2" align="center">
+        <td>2</td>
+        <td>teemo</td>
+        <td>320</td>
+        <td>76</td>
+    </tr>
+
+    <tr class="row1" align="center">
+        <td>3</td>
+        <td>annie</td>
+        <td>380</td>
+        <td>38</td>
+    </tr>
+
+    <tr class="row2" align="center">
+        <td>4</td>
+        <td>deadbrother</td>
+        <td>400</td>
+        <td>90</td>
+    </tr>
+
+</table>
+
+
+
+<div >
+
+</div>
+<table class="underline">
+    <tr>
+        <td class="u">商品</td>
+        <td class="u">数量</td>
+        <td class="u">价格</td>
+        <td class="u">小记</td>
+    </tr>
+</table>
+
+</body>
+</html>
